@@ -1,0 +1,19 @@
+public class Atm;
+    private int pincode = 123;
+    private double amount = 3000;
+    
+    public int getPincode(){
+        return pincode
+    }
+    public void setPincode(int pincode){
+        this pincode = pincode
+    }
+    
+    
+    public int setAmount(){
+        return amount
+    }
+    public void setAmount(double amount){
+        this amount = amount
+    }
+    
