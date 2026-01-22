@@ -1,0 +1,22 @@
+-------------------------------------------------------(relationship(has-a)
+package encapsulation
+
+public class Car {
+    String brand;
+    Car(string brand) {
+        this.brand = brand
+    }
+    engine e =  4\newengine("2000 cc");
+    public static void main(String[] args) {
+        Car c = new Car("XUV");
+        System.out.println(c.brand);
+        System.out.println(c.e.cc);
+    }
+}
+
+public class Engine {
+    String cc;
+    Engine(string cc) {
+        this.cc = cc;
+    }
+}
